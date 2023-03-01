@@ -1,0 +1,32 @@
+h1{
+    display: none;
+}
+
+#meme{
+    height: 300px;
+    width: 300px;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+}
+
+.azul{
+    background-color: aqua;
+}
+
+.naranja{
+    background-color: orange;
+}
+
+.grande{
+    width: 400px;
+    height: 400px;
+}
+
+.visibility--hidden{
+    display:none;
+    text-align: center;
+}
+

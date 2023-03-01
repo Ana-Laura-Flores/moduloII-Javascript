@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link para iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://kit.fontawesome.com/a47af75b49.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+     <!-- link favicon -->
+     <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Gestor de memes</title>
+</head>
+<body>
+    <header>
+        <h1>GENERADOR DE MEMES</h1>
+        <section class="botonera">
+            <button class="button button__text" id="button">
+                <i class="fa-solid fa-image">Imagen</i>
+            </button>
+            <button class="button button__text">
+                <i class="fa-solid fa-font">Texto</i>
+            </button>
+            <button class="button button__theme__dark">
+                <i class="fa-sharp fa-solid fa-lightbulb">Modo Oscuro</i>
+            </button>
+            <button class="button button__theme__light">
+                <i class="fa-sharp fa-solid fa-lightbulb">Modo Claro</i>
+            </button>
+        </section>
+
+    </header>
+    <main>
+        <section class="main__meme">
+            <div class="meme__text top">
+                <h2>TOP TEXT</h2>
+            </div>
+            <div class="meme__image">
+
+            </div>
+            <div class="meme__text bottom">
+                <h2>BOTTON TEXT</h2>
+            </div>
+        </section>
+        <button class="meme__button">Descargar meme</button>
+        <aside class="panel__imagen">
+            <h3>IMAGEN</h3>
+            <div class="panel__control">
+                <h4>URL</h4>
+                <input type="text">
+            </div>
+            <div class="panel__control fondo">
+                <h4>FONDO</h4>
+                <input type="color">
+                <select name="" id="" class="panel__control">
+                    <option value="ninguno">Ninguno</option>
+                    <option value="aclarar">Aclarar</option>
+                    <option value="oscurecer">Oscurecer</option>
+                    <option value="diferencia">Diferencia</option>
+                    <option value="luminocidad">Luminocidad</option>
+                    <option value="multiplicar">Multiplicar</option>
+                </select>
+            </div>
+            <div class="panel__control range">
+                <h4>FILTROS</h4>
+                <div class="panel__control">
+                    <label for="brillo" >BRILLO</label>
+                    <input type="range" name="brillo" id="">
+                </div>
+                <div class="panel__control">
+                    <label for="opacidad" >OPACIDAD</label>
+                    <input type="range" name="opacidad" id="">
+                </div>
+                <div class="panel__control">
+                    <label for="contraste" >CONTRASTE</label>
+                    <input type="range" name="contraste" id="">
+                </div>
+                <div class="panel__control">
+                    <label for="desenfoque" >DESENFOQUE</label>
+                    <input type="range" name="desenfoque" id="">
+                </div>
+                <div class="panel__control">
+                    <label for="grises" >ESCALA DE GRISES</label>
+                    <input type="range" name="grises" id="">
+                </div>
+                <div class="panel__control">
+                    <label for="sepia" >SEPIA</label>
+                    <input type="range" name="sepia" id="">
+                </div>
+                <div class="panel__control">
+                    <label for="hue">HUE</label>
+                    <input type="range" name="hue" id="">
+                </div>
+                <div class="panel__control">
+                    <label for="saturado">SATURADO</label>
+                    <input type="range" name="saturado" id="">
+                </div>
+                <div class="panel__control">
+                    <label for="negativo">NEGATIVO</label>
+                    <input type="range" name="negativo" id="">
+                </div>
+                <button class="button panel__control reestablecer">
+                    Reestablecer filtros
+                </button>
+            </div>
+        </aside>
+    </main>
+    
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>

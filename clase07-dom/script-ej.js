@@ -48,29 +48,28 @@ const rgb = (rgb1, rgb2, rgb3)=>{
 rgb()
 $("body").style.backgroundColor = rgb
 */
+
+
 // imagen
 //Hacer un programa que al iniciarse pregunte mediante un prompt por un tamaño de imagen (siendo las opciones posibles chica, mediana y grande) y dependiendo de la opción elegida modifique el tamaño de una imagen (cualquiera) en el documento html. Por ejemplo:
 
-const size = () =>{
 
- prompt("Ingresá un tamaño de imagen: chica - mediana - grande")
-
-if (size === "chica"){
+const size = (sizeImg) =>{
+ sizeImg = prompt("Ingresá un tamaño de imagen: chica - mediana - grande")
+ 
+if (sizeImg.toLowerCase() === "chica"){
     return $("img").classList.add("chica")
-}else{
+}
    
- if (size === "mediana") {
+if (sizeImg.toLowerCase()  === "mediana") {
     return $("img").classList.add("mediana")
-} else {
-    
-    if (size === "grande"){
+}     
+if (sizeImg.toLowerCase() === "grande"){
         return $("img").classList.add("grande")
-    }else{
-        alert (`no anda`)
     }
 }
-}
-} 
+
+
 size ()
 
     

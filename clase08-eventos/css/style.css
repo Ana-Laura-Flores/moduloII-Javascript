@@ -90,9 +90,87 @@ margin: 20px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
+    
 }
 .items.normal{
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:normal;
+    color: gray;
+}
+
+.progress-container{
+    width: 60%;
+    height: 50px;
+    background-color: lightgray;
+    margin: 30px;
+}
+.progress-barra{
+    width: 10%;
+    height: 50px;
+    background-color: crimson;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-btn-container{
+    display: flex;
+}
+.progress-mas-btn,
+.progress-menos-btn{
+    width: 60px;
+    margin: 20px;
+    padding: 10px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: lightcoral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+.modo{
+    background-color: rgb(14, 14, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    justify-content: center;
+}
+.modo.claro{
+    background-color: aliceblue;
+    color: rgb(14, 14, 32);
+}
+.text{
+    margin-top: 150px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+.titulo-modo,
+.parrafo-modo,
+.btn-mode{
+    margin: 50px;
+}
+.btn-mode{
+    width: 120px;
+    height: 60px;
+    cursor: pointer;
+}
+.modo{
+    height: 2000px;
+}
+.modo.modo-scroll{
+    background-color: aqua;
+}
+
+.modo.modo-scroll2{
+    background-color: burlywood;
+    
 }
